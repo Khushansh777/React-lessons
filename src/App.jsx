@@ -11,6 +11,9 @@ import Userlist from "./components/Userlist.jsx";
 import Person from "./components/Person.jsx";
 import Product from "./components/Product.jsx";
 import Children from "./components/Children.jsx";
+import Greeting from "./components/Greeting.jsx";
+import Weather from "./components/Weather.jsx";
+import Userstatus from "./components/Userstatus.jsx";
 
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
         <h1>LOL</h1>
         <p>LMAO</p>
       </Children>
+      <Greeting timeOfDay='afternnon'/>
+      <Weather temp={50}/>
+      <Userstatus loggedIn isAdmin/>
     </div>
   );
 }
