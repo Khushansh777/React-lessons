@@ -14,6 +14,10 @@ import Children from "./components/Children.jsx";
 import Greeting from "./components/Greeting.jsx";
 import Weather from "./components/Weather.jsx";
 import Userstatus from "./components/Userstatus.jsx";
+import StyleCard from "./components/StyleCard.jsx";
+import ProfileCard from "./components/ProfileCard.jsx";
+import Iconcomponent from "./components/Iconcomponent.jsx";
+import Functions from "./components/Functions.jsx";
 
 function App() {
   return (
@@ -38,6 +42,10 @@ function App() {
       <Greeting timeOfDay='afternnon'/>
       <Weather temp={50}/>
       <Userstatus loggedIn isAdmin/>
+      <StyleCard/>
+      <ProfileCard/>
+      <Iconcomponent/>
+      <Functions/>
     </div>
   );
 }
