@@ -11,7 +11,7 @@ function Functions() {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque quo
         impedit vero molestiae nihil? Voluptate velit itaque enim incidunt
         dolore nesciunt eum beatae reprehenderit excepturi vitae corrupti iusto,
-        eius molestiae!
+        eius molestiae! 
       </p>
     </div>
   );

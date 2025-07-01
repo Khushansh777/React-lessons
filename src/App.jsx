@@ -18,11 +18,18 @@ import StyleCard from "./components/StyleCard.jsx";
 import ProfileCard from "./components/ProfileCard.jsx";
 import Iconcomponent from "./components/Iconcomponent.jsx";
 import Functions from "./components/Functions.jsx";
-
+import UseStateAdd from "./components/UseStateAdd.jsx";
+import UserStatusDiffExample from "./components/UserStatusDiffExample.jsx";
+import RandomNoGeneratorUseState from "./components/RandomNoGeneratorUseState.jsx";
+import LocalStorageFunction from "./components/LocalStorageFunction.jsx";
+import Counter from "./components/Counter.jsx";
+import TodoList from "./components/TodoList.jsx";
+import Profile from "./components/Profile.jsx";
+import ShoppingList from "./components/ShoppingList.jsx";
 function App() {
   return (
     <div>
-      <Something />
+      {/* <Something />
       <Something1 />
       <Header />
       <Footer />
@@ -45,7 +52,15 @@ function App() {
       <StyleCard/>
       <ProfileCard/>
       <Iconcomponent/>
-      <Functions/>
+      <Functions/> */}
+      {/* <UseStateAdd/>
+      <UserStatusDiffExample/>
+      <RandomNoGeneratorUseState/> */}
+      {/* <LocalStorageFunction/> */}
+      <Counter/>
+      <TodoList/>
+      <Profile/>
+      <ShoppingList/>
     </div>
   );
 }
