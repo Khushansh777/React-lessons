@@ -26,6 +26,14 @@ import Counter from "./components/Counter.jsx";
 import TodoList from "./components/TodoList.jsx";
 import Profile from "./components/Profile.jsx";
 import ShoppingList from "./components/ShoppingList.jsx";
+import Clipboard from "./components/Clipboard.jsx";
+import Clipboardverifier from "./components/Clipboardverifier.jsx";
+import Portal from "./components/Portal.jsx";
+import Useeffect from "./components/Useeffect.jsx";
+import Useeffectfetch from "./components/Useeffectfetch.jsx";
+import Basiceffect from "./components/Basiceffect.jsx";
+import Countereffect from "./components/Countereffect.jsx";
+import FetchDataEffect from "./components/FetchDataEffect.jsx";
 function App() {
   return (
     <div>
@@ -57,10 +65,18 @@ function App() {
       <UserStatusDiffExample/>
       <RandomNoGeneratorUseState/> */}
       {/* <LocalStorageFunction/> */}
-      <Counter/>
+      {/* <Counter/>
       <TodoList/>
       <Profile/>
       <ShoppingList/>
+      <Clipboard/>
+     <Clipboardverifier/> */}
+     {/* <Portal/> */}
+     {/* <Useeffect/>
+     <Useeffectfetch/> */}
+     <Basiceffect/>
+     <Countereffect/>
+     <FetchDataEffect/>
     </div>
   );
 }
